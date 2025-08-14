@@ -1,6 +1,6 @@
 // pages/portfolio.js
 import { useRouter } from "next/router";
-import PortfolioPreview from "../../components/Portfoliopreview";
+import PortfolioPreview from "../components/Portfoliopreview";
 export default function PortfolioPage() {
   const router = useRouter();
 
