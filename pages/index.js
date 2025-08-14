@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useRouter } from "next/router";
 import { saveAs } from "file-saver";
 import Form from "../../components/TestForm.js";
-import PortfolioPreview from "../../components/Portfoliopreview.js"; // <- note the casing
+import PortfolioPreview from "../../components/Portfoliopreview.js";
 
 export default function Home() {
   const router = useRouter();
