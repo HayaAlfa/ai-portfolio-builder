@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-
+  basePath: '/portfolio',
   // Fix dev cache issues: keep cache in memory while developing
   webpack(config, { dev }) {
     if (dev) {
